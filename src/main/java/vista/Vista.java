@@ -30,27 +30,8 @@ public class Vista extends JFrame {
     }
 
     private void initComponentents() {
-        jb1 = new JButton();
-        jb2 = new JButton();
-        jb3 = new JButton();
-        jl1 = new JLabel();
-
-        jp1 = new JPanel();
-        jp2 = new JPanel();
-
-        jp1.add(jb1);
-        jp1.add(jb2);
-        jp1.add(jb3);
-        jp2.add(jl1);
-
-        jp1.setLayout(new GridLayout(0, 3));
-        jp2.setLayout(new GridLayout(1, 0));
-
-        add(jp1);
-        add(jp2);
-
-        setLayout(new GridLayout(2, 0));
-
+        throw new RuntimeException("Implementar");
+        
         setSize(500, 200); // Ancho, Alto
         setLocationRelativeTo(null);
         //setVisible(true);
